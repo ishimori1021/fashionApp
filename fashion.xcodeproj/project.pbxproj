@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A12FD6FE1ED9723800F7F643 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FD6FD1ED9723800F7F643 /* AddViewController.swift */; };
+		A12FD7001ED9928E00F7F643 /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FD6FF1ED9928E00F7F643 /* TakePhotoViewController.swift */; };
 		A17ED5091EC6ECDA00CD39C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED5081EC6ECDA00CD39C8 /* AppDelegate.swift */; };
 		A17ED50B1EC6ECDA00CD39C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED50A1EC6ECDA00CD39C8 /* ViewController.swift */; };
 		A17ED50E1EC6ECDA00CD39C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17ED50C1EC6ECDA00CD39C8 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		A12FD6FD1ED9723800F7F643 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		A12FD6FF1ED9928E00F7F643 /* TakePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
 		A17ED5051EC6ECDA00CD39C8 /* fashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17ED5081EC6ECDA00CD39C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17ED50A1EC6ECDA00CD39C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				A17ED5081EC6ECDA00CD39C8 /* AppDelegate.swift */,
 				A17ED50A1EC6ECDA00CD39C8 /* ViewController.swift */,
 				A17ED50C1EC6ECDA00CD39C8 /* Main.storyboard */,
+				A12FD6FF1ED9928E00F7F643 /* TakePhotoViewController.swift */,
 				A12FD6FD1ED9723800F7F643 /* AddViewController.swift */,
 				A17ED53A1EC7133A00CD39C8 /* SarchViewController.swift */,
 				A17ED5381EC7124A00CD39C8 /* PhotoViewController.swift */,
@@ -277,6 +280,7 @@
 				A12FD6FE1ED9723800F7F643 /* AddViewController.swift in Sources */,
 				A17ED5371EC6F1ED00CD39C8 /* WebViewController.swift in Sources */,
 				A17ED53B1EC7133A00CD39C8 /* SarchViewController.swift in Sources */,
+				A12FD7001ED9928E00F7F643 /* TakePhotoViewController.swift in Sources */,
 				A17ED5091EC6ECDA00CD39C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

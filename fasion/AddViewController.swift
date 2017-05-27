@@ -42,12 +42,12 @@ class AddViewController: UIViewController,UIImagePickerControllerDelegate, UINav
         //        cameraImageView.image = info[UIImagePickerControllerEditedImage] as? UIImage
         
         dismiss(animated: true){
-            let pic = PhotoViewController()
+            let pic = TakePhotoViewController()
             
             self.present(pic, animated: true, completion: nil)
             
             let storyboard: UIStoryboard = self.storyboard!
-            let nextView = storyboard.instantiateViewController(withIdentifier: "next") as! PhotoViewController
+            let nextView = storyboard.instantiateViewController(withIdentifier: "next") as! TakePhotoViewController
             self.present(nextView, animated: true, completion: nil)
             
         }

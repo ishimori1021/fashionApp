@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:fasion.xcodeproj">
+      location = "self:/Users/Ami/Desktop/fashion/fashion.xcodeproj">
    </FileRef>
 </Workspace>

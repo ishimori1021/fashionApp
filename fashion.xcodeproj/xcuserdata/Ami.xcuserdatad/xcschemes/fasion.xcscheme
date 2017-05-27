@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A17ED5041EC6ECDA00CD39C8"
-               BuildableName = "fasion.app"
-               BlueprintName = "fasion"
-               ReferencedContainer = "container:fasion.xcodeproj">
+               BuildableName = "fashion.app"
+               BlueprintName = "fashion"
+               ReferencedContainer = "container:fashion.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A17ED5181EC6ECDA00CD39C8"
-               BuildableName = "fasionTests.xctest"
-               BlueprintName = "fasionTests"
-               ReferencedContainer = "container:fasion.xcodeproj">
+               BuildableName = "fashionTests.xctest"
+               BlueprintName = "fashionTests"
+               ReferencedContainer = "container:fashion.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A17ED5231EC6ECDA00CD39C8"
-               BuildableName = "fasionUITests.xctest"
-               BlueprintName = "fasionUITests"
-               ReferencedContainer = "container:fasion.xcodeproj">
+               BuildableName = "fashionUITests.xctest"
+               BlueprintName = "fashionUITests"
+               ReferencedContainer = "container:fashion.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A17ED5041EC6ECDA00CD39C8"
-            BuildableName = "fasion.app"
-            BlueprintName = "fasion"
-            ReferencedContainer = "container:fasion.xcodeproj">
+            BuildableName = "fashion.app"
+            BlueprintName = "fashion"
+            ReferencedContainer = "container:fashion.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A17ED5041EC6ECDA00CD39C8"
-            BuildableName = "fasion.app"
-            BlueprintName = "fasion"
-            ReferencedContainer = "container:fasion.xcodeproj">
+            BuildableName = "fashion.app"
+            BlueprintName = "fashion"
+            ReferencedContainer = "container:fashion.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A17ED5041EC6ECDA00CD39C8"
-            BuildableName = "fasion.app"
-            BlueprintName = "fasion"
-            ReferencedContainer = "container:fasion.xcodeproj">
+            BuildableName = "fashion.app"
+            BlueprintName = "fashion"
+            ReferencedContainer = "container:fashion.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

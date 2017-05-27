@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A12FD6FE1ED9723800F7F643 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FD6FD1ED9723800F7F643 /* AddViewController.swift */; };
 		A17ED5091EC6ECDA00CD39C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED5081EC6ECDA00CD39C8 /* AppDelegate.swift */; };
 		A17ED50B1EC6ECDA00CD39C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED50A1EC6ECDA00CD39C8 /* ViewController.swift */; };
 		A17ED50E1EC6ECDA00CD39C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17ED50C1EC6ECDA00CD39C8 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		A17ED5131EC6ECDA00CD39C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17ED5111EC6ECDA00CD39C8 /* LaunchScreen.storyboard */; };
 		A17ED51E1EC6ECDA00CD39C8 /* fasionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED51D1EC6ECDA00CD39C8 /* fasionTests.swift */; };
 		A17ED5291EC6ECDA00CD39C8 /* fasionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED5281EC6ECDA00CD39C8 /* fasionUITests.swift */; };
+		A17ED5371EC6F1ED00CD39C8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED5361EC6F1ED00CD39C8 /* WebViewController.swift */; };
+		A17ED5391EC7124A00CD39C8 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED5381EC7124A00CD39C8 /* PhotoViewController.swift */; };
+		A17ED53B1EC7133A00CD39C8 /* SarchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED53A1EC7133A00CD39C8 /* SarchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A17ED5051EC6ECDA00CD39C8 /* fasion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fasion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12FD6FD1ED9723800F7F643 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		A17ED5051EC6ECDA00CD39C8 /* fashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17ED5081EC6ECDA00CD39C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17ED50A1EC6ECDA00CD39C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A17ED50D1EC6ECDA00CD39C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A17ED50F1EC6ECDA00CD39C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17ED5121EC6ECDA00CD39C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A17ED5141EC6ECDA00CD39C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A17ED5191EC6ECDA00CD39C8 /* fasionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fasionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17ED5191EC6ECDA00CD39C8 /* fashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17ED51D1EC6ECDA00CD39C8 /* fasionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasionTests.swift; sourceTree = "<group>"; };
 		A17ED51F1EC6ECDA00CD39C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A17ED5241EC6ECDA00CD39C8 /* fasionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fasionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17ED5241EC6ECDA00CD39C8 /* fashionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fashionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17ED5281EC6ECDA00CD39C8 /* fasionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasionUITests.swift; sourceTree = "<group>"; };
 		A17ED52A1EC6ECDA00CD39C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17ED5361EC6F1ED00CD39C8 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		A17ED5381EC7124A00CD39C8 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		A17ED53A1EC7133A00CD39C8 /* SarchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SarchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +95,9 @@
 		A17ED5061EC6ECDA00CD39C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A17ED5051EC6ECDA00CD39C8 /* fasion.app */,
-				A17ED5191EC6ECDA00CD39C8 /* fasionTests.xctest */,
-				A17ED5241EC6ECDA00CD39C8 /* fasionUITests.xctest */,
+				A17ED5051EC6ECDA00CD39C8 /* fashion.app */,
+				A17ED5191EC6ECDA00CD39C8 /* fashionTests.xctest */,
+				A17ED5241EC6ECDA00CD39C8 /* fashionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +108,10 @@
 				A17ED5081EC6ECDA00CD39C8 /* AppDelegate.swift */,
 				A17ED50A1EC6ECDA00CD39C8 /* ViewController.swift */,
 				A17ED50C1EC6ECDA00CD39C8 /* Main.storyboard */,
+				A12FD6FD1ED9723800F7F643 /* AddViewController.swift */,
+				A17ED53A1EC7133A00CD39C8 /* SarchViewController.swift */,
+				A17ED5381EC7124A00CD39C8 /* PhotoViewController.swift */,
+				A17ED5361EC6F1ED00CD39C8 /* WebViewController.swift */,
 				A17ED50F1EC6ECDA00CD39C8 /* Assets.xcassets */,
 				A17ED5111EC6ECDA00CD39C8 /* LaunchScreen.storyboard */,
 				A17ED5141EC6ECDA00CD39C8 /* Info.plist */,
@@ -128,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A17ED5041EC6ECDA00CD39C8 /* fasion */ = {
+		A17ED5041EC6ECDA00CD39C8 /* fashion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17ED52D1EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fasion" */;
+			buildConfigurationList = A17ED52D1EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fashion" */;
 			buildPhases = (
 				A17ED5011EC6ECDA00CD39C8 /* Sources */,
 				A17ED5021EC6ECDA00CD39C8 /* Frameworks */,
@@ -140,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = fasion;
+			name = fashion;
 			productName = fasion;
-			productReference = A17ED5051EC6ECDA00CD39C8 /* fasion.app */;
+			productReference = A17ED5051EC6ECDA00CD39C8 /* fashion.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A17ED5181EC6ECDA00CD39C8 /* fasionTests */ = {
+		A17ED5181EC6ECDA00CD39C8 /* fashionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17ED5301EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fasionTests" */;
+			buildConfigurationList = A17ED5301EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fashionTests" */;
 			buildPhases = (
 				A17ED5151EC6ECDA00CD39C8 /* Sources */,
 				A17ED5161EC6ECDA00CD39C8 /* Frameworks */,
@@ -158,14 +170,14 @@
 			dependencies = (
 				A17ED51B1EC6ECDA00CD39C8 /* PBXTargetDependency */,
 			);
-			name = fasionTests;
+			name = fashionTests;
 			productName = fasionTests;
-			productReference = A17ED5191EC6ECDA00CD39C8 /* fasionTests.xctest */;
+			productReference = A17ED5191EC6ECDA00CD39C8 /* fashionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A17ED5231EC6ECDA00CD39C8 /* fasionUITests */ = {
+		A17ED5231EC6ECDA00CD39C8 /* fashionUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17ED5331EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fasionUITests" */;
+			buildConfigurationList = A17ED5331EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fashionUITests" */;
 			buildPhases = (
 				A17ED5201EC6ECDA00CD39C8 /* Sources */,
 				A17ED5211EC6ECDA00CD39C8 /* Frameworks */,
@@ -176,9 +188,9 @@
 			dependencies = (
 				A17ED5261EC6ECDA00CD39C8 /* PBXTargetDependency */,
 			);
-			name = fasionUITests;
+			name = fashionUITests;
 			productName = fasionUITests;
-			productReference = A17ED5241EC6ECDA00CD39C8 /* fasionUITests.xctest */;
+			productReference = A17ED5241EC6ECDA00CD39C8 /* fashionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					A17ED5041EC6ECDA00CD39C8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JQ6AUCT297;
 						ProvisioningStyle = Automatic;
 					};
 					A17ED5181EC6ECDA00CD39C8 = {
@@ -207,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A17ED5001EC6ECDA00CD39C8 /* Build configuration list for PBXProject "fasion" */;
+			buildConfigurationList = A17ED5001EC6ECDA00CD39C8 /* Build configuration list for PBXProject "fashion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A17ED5041EC6ECDA00CD39C8 /* fasion */,
-				A17ED5181EC6ECDA00CD39C8 /* fasionTests */,
-				A17ED5231EC6ECDA00CD39C8 /* fasionUITests */,
+				A17ED5041EC6ECDA00CD39C8 /* fashion */,
+				A17ED5181EC6ECDA00CD39C8 /* fashionTests */,
+				A17ED5231EC6ECDA00CD39C8 /* fashionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17ED50B1EC6ECDA00CD39C8 /* ViewController.swift in Sources */,
+				A17ED5391EC7124A00CD39C8 /* PhotoViewController.swift in Sources */,
+				A12FD6FE1ED9723800F7F643 /* AddViewController.swift in Sources */,
+				A17ED5371EC6F1ED00CD39C8 /* WebViewController.swift in Sources */,
+				A17ED53B1EC7133A00CD39C8 /* SarchViewController.swift in Sources */,
 				A17ED5091EC6ECDA00CD39C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		A17ED51B1EC6ECDA00CD39C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A17ED5041EC6ECDA00CD39C8 /* fasion */;
+			target = A17ED5041EC6ECDA00CD39C8 /* fashion */;
 			targetProxy = A17ED51A1EC6ECDA00CD39C8 /* PBXContainerItemProxy */;
 		};
 		A17ED5261EC6ECDA00CD39C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A17ED5041EC6ECDA00CD39C8 /* fasion */;
+			target = A17ED5041EC6ECDA00CD39C8 /* fashion */;
 			targetProxy = A17ED5251EC6ECDA00CD39C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -410,9 +427,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JQ6AUCT297;
 				INFOPLIST_FILE = fasion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.fasion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.fasion.a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,9 +441,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JQ6AUCT297;
 				INFOPLIST_FILE = fasion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.fasion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.fasion.a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -440,7 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.fasionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fasion.app/fasion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fashion.app/fashion";
 			};
 			name = Debug;
 		};
@@ -454,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.fasionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fasion.app/fasion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fashion.app/fashion";
 			};
 			name = Release;
 		};
@@ -487,7 +508,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A17ED5001EC6ECDA00CD39C8 /* Build configuration list for PBXProject "fasion" */ = {
+		A17ED5001EC6ECDA00CD39C8 /* Build configuration list for PBXProject "fashion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A17ED52B1EC6ECDA00CD39C8 /* Debug */,
@@ -496,29 +517,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A17ED52D1EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fasion" */ = {
+		A17ED52D1EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fashion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A17ED52E1EC6ECDA00CD39C8 /* Debug */,
 				A17ED52F1EC6ECDA00CD39C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A17ED5301EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fasionTests" */ = {
+		A17ED5301EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fashionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A17ED5311EC6ECDA00CD39C8 /* Debug */,
 				A17ED5321EC6ECDA00CD39C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A17ED5331EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fasionUITests" */ = {
+		A17ED5331EC6ECDA00CD39C8 /* Build configuration list for PBXNativeTarget "fashionUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A17ED5341EC6ECDA00CD39C8 /* Debug */,
 				A17ED5351EC6ECDA00CD39C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

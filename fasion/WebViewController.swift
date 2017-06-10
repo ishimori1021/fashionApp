@@ -7,8 +7,15 @@
 //
 
 import UIKit
+import SafariServices
 
-class WebViewController: UIViewController {
+class WebViewController: UIViewController, SFSafariViewControllerDelegate {
+    
+    
+   /* @IBAction func presentSafariViewController(sender: AnyObject) {
+        let safariViewController = SFSafariViewController(url: NSURL(string: "https://www.google.co.jp")! as URL)
+        present(safariViewController, animated: true, completion: nil);
+    }*/
 
     @IBOutlet weak var webview: UIWebView!
     
@@ -49,6 +56,8 @@ class WebViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+ 
+ 
     
 
 }

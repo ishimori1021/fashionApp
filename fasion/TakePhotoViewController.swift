@@ -10,13 +10,16 @@ import UIKit
 
 class TakePhotoViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate,  UIPickerViewDelegate,UIPickerViewDataSource{
     
+    let userDefaults = UserDefaults.standard
+    
     @IBOutlet var CIV:UIImageView!
+    @IBOutlet var label : UILabel!
     
     var myUIPicker: UIPickerView = UIPickerView()
     var mUIPicker: UIPickerView = UIPickerView()
     var salarymanArr: NSArray = ["春","夏","秋","冬"]
     var yArr: NSArray = ["普段","友達と","デート","その他"]
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,16 +27,16 @@ class TakePhotoViewController: UIViewController,UIImagePickerControllerDelegate,
         // Do any additional setup after loading the view.
         
         
-        myUIPicker.frame = CGRect(x: 50, y: 350, width: 100, height: 250)
-        myUIPicker.delegate = self as! UIPickerViewDelegate
-        myUIPicker.dataSource = self as! UIPickerViewDataSource
+        myUIPicker.frame = CGRect(x: 50, y: 350, width: 50, height: 250)
+        myUIPicker.delegate = self as UIPickerViewDelegate
+        myUIPicker.dataSource = self as UIPickerViewDataSource
         self.view.addSubview(myUIPicker)
         
-        mUIPicker.frame = CGRect(x: 200, y: 350, width: 100, height: 250)
-        mUIPicker.delegate = self as! UIPickerViewDelegate
-        mUIPicker.dataSource = self as! UIPickerViewDataSource
+        mUIPicker.frame = CGRect(x: 220, y: 350, width: 80, height: 250)
+        mUIPicker.delegate = self as UIPickerViewDelegate
+        mUIPicker.dataSource = self as UIPickerViewDataSource
         self.view.addSubview(mUIPicker)
-
+        
     }
     
     @IBAction func takePhoto(){
@@ -73,9 +76,10 @@ class TakePhotoViewController: UIViewController,UIImagePickerControllerDelegate,
     //表示内容
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if pickerView == myUIPicker {
-            return salarymanArr[row] as! String
+            return salarymanArr[row] as? String
         } else {
-            return yArr[row] as! String        }
+            return yArr[row] as? String
+        }
     }
     
     //選択時
@@ -87,22 +91,33 @@ class TakePhotoViewController: UIViewController,UIImagePickerControllerDelegate,
         print("値: \(yArr[row])")
     }
     
+        
+       
     
-    @IBAction func tsuika(sender: UIButton){
-//        let AddViewController: AddViewController = self.storyboard?.instantiateViewController(withIdentifier: "AddViewController") as! AddViewController
-        // アニメーションを設定する.
-        //secondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
-        // 値渡ししたい時 hoge -> piyo
-        //secondViewController.piyo = self.hoge
-        // Viewの移動する.
-//        self.present(AddViewController, animated: true, completion: nil)
+    
+    @IBAction func pushSaveButton(sender: UIButton) {
         
-        dismiss(animated: true, completion: nil)
+        // UIImage => NSDataに変換してUserDefaultに保存
+        if let image = UIImage(named: "image") {
+            let imageData = UIImageJPEGRepresentation(image, 1);
+            userDefaults.set(imageData, forKey: "imageData")
+            userDefaults.synchronize()
+        }
         
+        self.dismiss(animated: true, completion: nil)
 
+        
     }
+        // 書き込み完了結果の受け取り
+        func image(image: UIImage, didFinishSavingWithError error: NSError!, contextInfo: UnsafeMutablePointer<Void>) {
+            print("1")
+            
+            if error != nil {
+                print(error.code)
+            }
+           
+        }
     
-
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
